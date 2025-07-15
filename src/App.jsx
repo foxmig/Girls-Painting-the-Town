@@ -103,37 +103,37 @@ function Home() {
           <h2>Our Work</h2>
           <div className="gallery-grid">
             <div className="gallery-item">
-              <img src="/src/assets/beforeexterior.jpeg" alt="Before exterior painting" />
+              <img src="/images/beforeexterior.jpeg" alt="Before exterior painting" />
               <div className="gallery-overlay">
                 <h4>Exterior Before</h4>
               </div>
             </div>
             <div className="gallery-item">
-              <img src="/src/assets/afterexterior.jpeg" alt="After exterior painting" />
+              <img src="/images/afterexterior.jpeg" alt="After exterior painting" />
               <div className="gallery-overlay">
                 <h4>Exterior After</h4>
               </div>
             </div>
             <div className="gallery-item">
-              <img src="/src/assets/beforeplasterrepair.jpg" alt="Before plaster repair" />
+              <img src="/images/beforeplasterrepair.jpg" alt="Before plaster repair" />
               <div className="gallery-overlay">
                 <h4>Plaster Repair Before</h4>
               </div>
             </div>
             <div className="gallery-item">
-              <img src="/src/assets/afterplasterrepair.jpg" alt="After plaster repair" />
+              <img src="/images/afterplasterrepair.jpg" alt="After plaster repair" />
               <div className="gallery-overlay">
                 <h4>Plaster Repair After</h4>
               </div>
             </div>
             <div className="gallery-item">
-              <img src="/src/assets/Denisworking.jpeg" alt="Denis working on painting project" />
+              <img src="/images/Denisworking.jpeg" alt="Denis working on painting project" />
               <div className="gallery-overlay">
                 <h4>Professional Work</h4>
               </div>
             </div>
             <div className="gallery-item">
-              <img src="/src/assets/dennisonladder.jpeg" alt="Denis on ladder painting" />
+              <img src="/images/dennisonladder.jpeg" alt="Denis on ladder painting" />
               <div className="gallery-overlay">
                 <h4>Exterior Work</h4>
               </div>
