@@ -168,7 +168,7 @@
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(46, 134, 171, 0.9), rgba(162, 59, 114, 0.9)), url('https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=1200') center/cover;
+  background: linear-gradient(rgba(46, 134, 171, 0.7), rgba(0, 150, 136, 0.7)), url('/images/colonial-house.jpg') center/cover;
   color: white;
   padding: 6rem 0;
   text-align: center;
