@@ -164,8 +164,7 @@ function Contact() {
                 <strong>Phone:</strong> 267-970-3160
               </div>
               <div className="contact-item">
-                <strong>Service Areas:</strong> Phoenixville, PA & Claymont, DE<br/>
-                Delaware County & Main Line
+                <strong>Service Areas:</strong> Delaware County & Main Line
               </div>
               <div className="contact-item">
                 <strong>Website:</strong> housepaintermainline.com
@@ -383,12 +382,16 @@ function Footer() {
           <div className="footer-section">
             <h4>Contact Info</h4>
             <p>Phone: 267-970-3160</p>
+            <p>Phoenixville, PA</p>
+            <p>Palace Ave, Claymont, DE</p>
           </div>
           
           <div className="footer-section">
             <h4>Service Areas</h4>
             <p>Delaware County</p>
             <p>Main Line</p>
+            <p>Phoenixville, PA</p>
+            <p>Claymont, DE</p>
           </div>
         </div>
         
