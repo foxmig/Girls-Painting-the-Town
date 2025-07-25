@@ -324,12 +324,8 @@ function Cleaning() {
               <h3>From Construction Chaos to Move-In Ready</h3>
               <div className="before-after-images">
                 <div className="image-container">
-                  <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=500" alt="Construction site with debris and tools" />
-                  <p>Before: Construction debris and tools</p>
-                </div>
-                <div className="image-container">
-                  <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500" alt="Clean sparkling new interior" />
-                  <p>After: Clean, sparkling pristine interior</p>
+                  <img src="/images/construction-before-after.jpeg" alt="Before and after construction cleaning transformation" />
+                  <p>Before & After: Construction to move-in ready transformation</p>
                 </div>
               </div>
               <ul>
@@ -353,6 +349,20 @@ function Cleaning() {
                 <li>Professional contractor partnerships</li>
                 <li>Timeline coordination with property investors</li>
                 <li>Final touch-ups and staging preparation</li>
+              </ul>
+            </div>
+
+            <div className="service-section">
+              <h3>Estate Cleanouts</h3>
+              <p>Compassionate and thorough estate cleanout services to help families during difficult times. We handle the complete clearing and cleaning of properties with respect and professionalism.</p>
+              <ul>
+                <li>Complete property cleanout services</li>
+                <li>Respectful handling of personal belongings</li>
+                <li>Donation coordination for usable items</li>
+                <li>Deep cleaning after item removal</li>
+                <li>Preparation for sale or rental</li>
+                <li>Flexible scheduling to meet family needs</li>
+                <li>Professional and compassionate service</li>
               </ul>
             </div>
           </div>
