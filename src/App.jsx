@@ -200,25 +200,36 @@ function Contact() {
 
           <div className="quote-form">
             <h3>Request Your Free Quote</h3>
-<form name="contact" method="POST" data-netlify="true">
-  {/* This is a hidden field for Netlify bots */}
+{/* START: Replace your old form with this entire block */}
+<form name="contact" method="POST" data-netlify="true" action="/thank-you">
+  {/* Hidden input for Netlify */}
   <input type="hidden" name="form-name" value="contact" />
 
-  {/* All your visible fields go here, unchanged */}
   <div className="form-group">
     <input type="text" placeholder="Your Name" name="name" required />
   </div>
+
+  {/* ADDING THIS FIELD BACK */}
   <div className="form-group">
-  <select name="service" required>
-    <option value="">Select Service Type</option>
-    <option value="interior">Interior Painting</option>
-    <option value="exterior">Exterior Painting</option>
-    <option value="drywall">Drywall Services</option>
-    <option value="plaster">Plaster Repair</option>
-    <option value="cleaning">Construction Cleaning</option>
-    <option value="other">Other Services</option>
-  </select>
-</div>
+    <input type="email" placeholder="Your Email" name="email" required />
+  </div>
+
+  {/* ADDING THIS FIELD BACK */}
+  <div className="form-group">
+    <input type="tel" placeholder="Your Phone" name="phone" required />
+  </div>
+
+  <div className="form-group">
+    <select name="service" required>
+      <option value="">Select Service Type</option>
+      <option value="interior">Interior Painting</option>
+      <option value="exterior">Exterior Painting</option>
+      <option value="drywall">Drywall Services</option>
+      <option value="plaster">Plaster Repair</option>
+      <option value="cleaning">Construction Cleaning</option>
+      <option value="other">Other Services</option>
+    </select>
+  </div>
 
   <div className="form-group">
     <textarea placeholder="Project Details" name="details" rows="4"></textarea>
@@ -226,6 +237,7 @@ function Contact() {
   
   <Button type="submit" className="submit-btn">Get Free Quote</Button>
 </form>
+{/* END: End of replacement */}
 
           </div>
         </div>
