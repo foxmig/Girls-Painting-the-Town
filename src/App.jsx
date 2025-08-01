@@ -209,16 +209,17 @@ function Contact() {
     <input type="text" placeholder="Your Name" name="name" required />
   </div>
   <div className="form-group">
-    <input type="email" placeholder="Your Email" name="email" required />
-  </div>
-  <div className="form-group">
-    <input type="tel" placeholder="Your Phone" name="phone" required />
-  </div>
-  <div className="form-group">
-    <select name="service" required>
-      {/* ... options ... */}
-    </select>
-  </div>
+  <select name="service" required>
+    <option value="">Select Service Type</option>
+    <option value="interior">Interior Painting</option>
+    <option value="exterior">Exterior Painting</option>
+    <option value="drywall">Drywall Services</option>
+    <option value="plaster">Plaster Repair</option>
+    <option value="cleaning">Construction Cleaning</option>
+    <option value="other">Other Services</option>
+  </select>
+</div>
+
   <div className="form-group">
     <textarea placeholder="Project Details" name="details" rows="4"></textarea>
   </div>
