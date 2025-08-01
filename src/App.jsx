@@ -200,32 +200,32 @@ function Contact() {
 
           <div className="quote-form">
             <h3>Request Your Free Quote</h3>
-            <form name="contact" method="POST" data-netlify="true">  
-              <div className="form-group">
-                <input type="text" placeholder="Your Name" required />
-              </div>
-              <div className="form-group">
-                <input type="email" placeholder="Your Email" required />
-              </div>
-              <div className="form-group">
-                <input type="tel" placeholder="Your Phone" required />
-              </div>
-              <div className="form-group">
-                <select required>
-                  <option value="">Select Service Type</option>
-                  <option value="interior">Interior Painting</option>
-                  <option value="exterior">Exterior Painting</option>
-                  <option value="drywall">Drywall Services</option>
-                  <option value="plaster">Plaster Repair</option>
-                  <option value="cleaning">Construction Cleaning</option>
-                  <option value="other">Other Services</option>
-                </select>
-              </div>
-              <div className="form-group">
-                <textarea placeholder="Project Details" rows="4"></textarea>
-              </div>
-              <Button type="submit" className="submit-btn">Get Free Quote</Button>
-            </form>
+        <form name="contact" method="POST" data-netlify="true">  
+  <div className="form-group">
+    <input type="text" placeholder="Your Name" name="name" required />
+  </div>
+  <div className="form-group">
+    <input type="email" placeholder="Your Email" name="email" required />
+  </div>
+  <div className="form-group">
+    <input type="tel" placeholder="Your Phone" name="phone" required />
+  </div>
+  <div className="form-group">
+    <select name="service" required>
+      <option value="">Select Service Type</option>
+      <option value="interior">Interior Painting</option>
+      <option value="exterior">Exterior Painting</option>
+      <option value="drywall">Drywall Services</option>
+      <option value="plaster">Plaster Repair</option>
+      <option value="cleaning">Construction Cleaning</option>
+      <option value="other">Other Services</option>
+    </select>
+  </div>
+  <div className="form-group">
+    <textarea placeholder="Project Details" name="details" rows="4"></textarea>
+  </div>
+  <Button type="submit" className="submit-btn">Get Free Quote</Button>
+</form>
           </div>
         </div>
       </section>
