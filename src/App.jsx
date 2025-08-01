@@ -200,7 +200,8 @@ function Contact() {
 
           <div className="quote-form">
             <h3>Request Your Free Quote</h3>
-        <form name="contact" method="POST" data-netlify="true">  
+       <form name="contact" method="POST" data-netlify="true" action="/">
+
   <div className="form-group">
     <input type="text" placeholder="Your Name" name="name" required />
   </div>
