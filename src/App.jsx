@@ -1,8 +1,172 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { useEffect } from 'react'
+
 import { Button } from '@/components/ui/button.jsx'
 import './App.css'
 
-function App() {
+function App() {  useEffect(() => {
+    // Add schema markup to the head
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json';
+    schemaScript.innerHTML = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "@id": "https://housepaintermainline.com",
+      "name": "Girls Painting the Town",
+      "description": "Professional house painting and cleaning services in Delaware County and Main Line. Licensed and insured with over 25 years of experience.",
+      "url": "https://housepaintermainline.com",
+      "telephone": "+1-267-970-3160",
+      "priceRange": "$$",
+      "image": "https://housepaintermainline.com/images/girlspaintingthetownimage.jpg",
+      "founder": {
+        "@type": "Person",
+        "name": "Donna",
+        "jobTitle": "Owner and Operator"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Delaware County",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Pennsylvania"
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Main Line",
+          "containedInPlace": {
+            "@type": "State",
+            "name": "Pennsylvania"
+          }
+        }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Painting and Cleaning Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Interior Painting",
+              "description": "Professional interior painting services for residential and commercial properties"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Exterior Painting",
+              "description": "Expert exterior painting to protect and beautify your property"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Drywall Installation and Repair",
+              "description": "Professional drywall installation, replacement, and repair services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Plaster Repair",
+              "description": "Expert plaster repair and restoration services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Cabinet Painting",
+              "description": "Professional cabinet painting and refinishing"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Power Washing",
+              "description": "High-quality power washing services for exterior surfaces"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Deck Staining",
+              "description": "Professional deck staining and sealing services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Construction Cleaning and Painting",
+              "description": "Complete cleaning and painting services for new construction and renovations"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Wallpaper Removal",
+              "description": "Professional wallpaper removal services"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Popcorn Ceiling Removal",
+              "description": "Expert popcorn ceiling removal and finishing"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "20",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "sameAs": [
+        "https://www.facebook.com/girlspaintingthetown"
+      ],
+      "additionalType": "http://www.productontology.org/id/House_painter_and_decorator",
+      "knowsAbout": [
+        "Interior Painting",
+        "Exterior Painting",
+        "Drywall Repair",
+        "Plaster Repair",
+        "Cabinet Painting",
+        "Power Washing",
+        "Deck Staining",
+        "Construction Cleaning"
+      ],
+      "slogan": "Transform your space with Delaware County & Main Line's trusted painting professionals",
+      "paymentAccepted": "Cash, Check, Credit Card",
+      "openingHours": "Mo-Su",
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "license",
+          "name": "Licensed and Insured"
+        }
+      ],
+      "yearEstablished": "2014",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": "5"
+      }
+    } );
+    document.head.appendChild(schemaScript);
+  }, []);
+
   return (
     <Router>
       <div className="App">
