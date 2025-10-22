@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button.jsx'
 import './App.css'
 
 function App() {  useEffect(() => {
-    // Add schema markup to the head
+     Add schema markup to the head
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.innerHTML = JSON.stringify({
@@ -17,6 +17,15 @@ function App() {  useEffect(() => {
       "url": "https://housepaintermainline.com",
       "telephone": "+1-267-970-3160",
       "priceRange": "$$",
+       "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "223 Church Street", 
+        "addressLocality": "Phoenixville", 
+        "addressRegion": "PA", 
+        "postalCode": "19064", 
+        "addressCountry": "US"
+      },
+
       "image": "https://housepaintermainline.com/images/girlspaintingthetownimage.jpg",
       "founder": {
         "@type": "Person",
