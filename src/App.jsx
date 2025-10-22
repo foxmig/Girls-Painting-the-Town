@@ -4,8 +4,9 @@ import { useEffect } from 'react'
 import { Button } from '@/components/ui/button.jsx'
 import './App.css'
 
-function App() {  useEffect(() => {
-     Add schema markup to the head
+function App() {  
+  useEffect(() => );
+    // Add schema markup to the head;
     const schemaScript = document.createElement('script');
     schemaScript.type = 'application/ld+json';
     schemaScript.innerHTML = JSON.stringify({
@@ -171,8 +172,9 @@ function App() {  useEffect(() => {
       "numberOfEmployees": {
         "@type": "QuantitativeValue",
         "value": "5"
-      }
+      
     } );
+  }
     document.head.appendChild(schemaScript);
   }, []);
 
