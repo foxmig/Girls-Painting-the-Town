@@ -1,0 +1,12 @@
+/* TEAM */
+Owner: Donna Fox
+Company: Girls Painting the Town
+Location: Delaware County and Main Line, Pennsylvania, USA
+Phone: 267-970-3160
+Website: https://housepaintermainline.com
+
+/* SITE */
+Last update: 2026-06-13
+Language: English
+Doctype: HTML5
+Technology: WordPress

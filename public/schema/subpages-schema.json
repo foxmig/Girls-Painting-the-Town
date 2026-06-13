@@ -1,0 +1,112 @@
+{
+  "about": [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": "https://housepaintermainline.com/about/#webpage",
+      "url": "https://housepaintermainline.com/about/",
+      "name": "About Donna & Girls Painting the Town | Main Line PA Painter",
+      "description": "Learn about Donna Fox, owner of Girls Painting the Town, and her 25+ years of professional painting experience serving Delaware County and the Main Line, PA.",
+      "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+      "about": { "@id": "https://housepaintermainline.com/#business" },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" },
+          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://housepaintermainline.com/about/" }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://housepaintermainline.com/#donna",
+      "name": "Donna Fox",
+      "jobTitle": "Owner and Lead Painter",
+      "worksFor": { "@id": "https://housepaintermainline.com/#business" },
+      "description": "Donna Fox is the owner and operator of Girls Painting the Town, bringing over 25 years of professional painting experience to every project in Delaware County and the Main Line area of Pennsylvania.",
+      "knowsAbout": [
+        "Interior Painting", "Exterior Painting", "Cabinet Painting",
+        "Drywall Repair", "Plaster Repair", "Deck Staining",
+        "Power Washing", "Wallpaper Removal", "Construction Cleaning"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://housepaintermainline.com/reviews/#webpage",
+      "url": "https://housepaintermainline.com/reviews/",
+      "name": "Customer Reviews | Girls Painting the Town | Main Line PA",
+      "description": "Read customer reviews and testimonials for Girls Painting the Town — Delaware County and Main Line PA's trusted house painter with 5-star ratings.",
+      "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+      "about": { "@id": "https://housepaintermainline.com/#business" },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://housepaintermainline.com/reviews/" }
+        ]
+      }
+    }
+  ],
+  "cleaning": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://housepaintermainline.com/cleaning/#webpage",
+      "url": "https://housepaintermainline.com/cleaning/",
+      "name": "Construction Cleaning Services | Girls Painting the Town | Main Line PA",
+      "description": "Professional post-construction and renovation cleaning services in Delaware County and Main Line, PA. Girls Painting the Town leaves your space spotless and move-in ready.",
+      "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+      "about": { "@id": "https://housepaintermainline.com/#business" },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Cleaning Services", "item": "https://housepaintermainline.com/cleaning/" }
+        ]
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Construction Cleaning Services",
+      "description": "Professional post-construction and renovation cleaning services for new builds, remodels, and renovation projects throughout Delaware County and Main Line, PA.",
+      "provider": { "@id": "https://housepaintermainline.com/#business" },
+      "areaServed": "Delaware County and Main Line, PA",
+      "serviceType": "Construction Cleaning",
+      "offers": {
+        "@type": "Offer",
+        "description": "Free estimates for all construction cleaning projects",
+        "price": "0",
+        "priceCurrency": "USD",
+        "name": "Free Estimate"
+      }
+    }
+  ],
+  "contact": [
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://housepaintermainline.com/contact/#webpage",
+      "url": "https://housepaintermainline.com/contact/",
+      "name": "Contact Girls Painting the Town | Free Painting Estimate | 267-970-3160",
+      "description": "Contact Girls Painting the Town for a free painting estimate in Delaware County and Main Line, PA. Call 267-970-3160 or fill out our contact form.",
+      "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+      "about": { "@id": "https://housepaintermainline.com/#business" },
+      "inLanguage": "en-US",
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://housepaintermainline.com/contact/" }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "HousePainter",
+    "@id": "https://housepaintermainline.com/#business",
+    "name": "Girls Painting the Town",
+    "alternateName": ["Girls Painting The Town", "House Painter Main Line"],
+    "url": "https://housepaintermainline.com",
+    "telephone": "+1-267-970-3160",
+    "email": "info@housepaintermainline.com",
+    "description": "Girls Painting the Town is a licensed and insured house painting company serving Delaware County and the Main Line, PA. Owner Donna brings over 25 years of professional painting experience to every interior and exterior painting, drywall repair, power washing, and deck staining project.",
+    "slogan": "Delaware County & Main Line's Trusted Painting Professionals",
+    "image": [
+      "https://housepaintermainline.com/wp-content/themes/wordpress-theme-final/images/girlspaintingthetownimage.jpg",
+      "https://housepaintermainline.com/wp-content/themes/wordpress-theme-final/images/colonial-house.jpg"
+    ],
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://housepaintermainline.com/wp-content/uploads/2026/03/Picture1-1.jpg",
+      "width": 300,
+      "height": 300
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Donna Fox",
+      "jobTitle": "Owner and Lead Painter",
+      "description": "Donna Fox has over 25 years of professional painting experience and has owned Girls Painting the Town for over a decade, serving Delaware County and the Main Line area of Pennsylvania."
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ardmore",
+      "addressRegion": "PA",
+      "postalCode": "19003",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 40.0059,
+      "longitude": -75.3088
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Ardmore", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Haverford", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Bryn Mawr", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Rosemont", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Gladwyne", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Villanova", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Wayne", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Devon", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Berwyn", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Malvern", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Paoli", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Narberth", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Newtown Square", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Media", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "City", "name": "Springfield", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "AdministrativeArea", "name": "Delaware County", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } },
+      { "@type": "AdministrativeArea", "name": "Main Line", "containedInPlace": { "@type": "State", "name": "Pennsylvania" } }
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "16:00"
+      }
+    ],
+    "priceRange": "$$",
+    "paymentAccepted": ["Cash", "Check", "Credit Card"],
+    "currenciesAccepted": "USD",
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Licensed Painting Contractor",
+        "description": "Fully licensed painting contractor in the Commonwealth of Pennsylvania"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "name": "Insured",
+        "description": "Fully insured for residential and commercial painting projects"
+      }
+    ],
+    "knowsAbout": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Cabinet Painting",
+      "Deck Staining",
+      "Power Washing",
+      "Drywall Repair",
+      "Plaster Repair",
+      "Wallpaper Removal",
+      "Popcorn Ceiling Removal",
+      "Construction Cleaning",
+      "Roof Coating",
+      "Window Capping",
+      "Stucco Repair",
+      "Brick and Stone Pointing",
+      "Wood Repair"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Painting & Home Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Interior Painting",
+            "description": "Professional interior painting for walls, ceilings, trim, and cabinets in residential and commercial properties throughout Delaware County and the Main Line, PA.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Exterior Painting",
+            "description": "Expert exterior house painting including siding, trim, shutters, doors, and porches. Protecting and beautifying Main Line and Delaware County homes.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Cabinet Painting",
+            "description": "Professional cabinet painting and refinishing to transform your kitchen or bathroom without the cost of full replacement.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Deck Staining and Sealing",
+            "description": "Expert deck staining, sealing, and restoration to protect outdoor wood surfaces from the elements.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Power Washing",
+            "description": "Professional power washing for driveways, decks, siding, fences, and patios. Essential surface preparation before painting.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Drywall Repair and Installation",
+            "description": "Professional drywall repair, patching, and installation for walls and ceilings, including water damage and hole repairs.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Plaster Repair",
+            "description": "Skilled plaster repair and restoration for older Main Line homes with original plaster walls and ceilings.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Construction Cleaning",
+            "description": "Thorough post-construction and renovation cleaning services leaving your space spotless and move-in ready.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Wallpaper Removal",
+            "description": "Professional wallpaper removal and wall preparation for painting, including repair of underlying surface damage.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Popcorn Ceiling Removal",
+            "description": "Safe and professional removal of popcorn (acoustic) ceiling texture, followed by smooth ceiling preparation and painting.",
+            "areaServed": "Delaware County and Main Line, PA",
+            "provider": { "@id": "https://housepaintermainline.com/#business" }
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "47",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "sameAs": [
+      "https://www.facebook.com/girlspaintingthetown",
+      "https://www.google.com/maps/search/Girls+Painting+the+Town+Ardmore+PA"
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://housepaintermainline.com/#faq",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What areas does Girls Painting the Town serve?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Girls Painting the Town serves Delaware County and the Main Line area of Pennsylvania, including Ardmore, Haverford, Bryn Mawr, Rosemont, Gladwyne, Villanova, Wayne, Devon, Berwyn, Malvern, Paoli, Narberth, Newtown Square, Media, and Springfield. Call 267-970-3160 to confirm service in your area."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does house painting cost on the Main Line?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cost of house painting on the Main Line varies based on the size of the project, surface conditions, and services required. Girls Painting the Town offers free estimates for all projects. Interior painting for a single room typically starts around $300–$600, while full exterior painting for a Main Line home can range from $2,500 to $8,000 or more. Call 267-970-3160 for a no-obligation free estimate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Girls Painting the Town licensed and insured?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Girls Painting the Town is fully licensed and insured in Pennsylvania, providing complete peace of mind for homeowners and businesses throughout Delaware County and the Main Line."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does exterior house painting take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Exterior house painting on a typical Main Line home takes 2 to 5 days depending on the size, number of stories, surface prep required, and weather conditions. Donna will provide a detailed timeline during your free estimate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What paint brands does Girls Painting the Town use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Girls Painting the Town uses premium paint brands including Sherwin-Williams, Benjamin Moore, and Behr, selected based on the specific requirements of each project. We recommend the best product for your surface, climate exposure, and desired finish."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Girls Painting the Town offer free estimates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Girls Painting the Town provides free, no-obligation estimates for all painting and cleaning projects in Delaware County and the Main Line area. Call 267-970-3160 or use the contact form on the website to schedule your free estimate."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you paint cabinets without replacing them?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Cabinet painting is one of the most cost-effective ways to transform a kitchen or bathroom. Girls Painting the Town professionally prepares, primes, and paints cabinets to a smooth, durable finish that looks like new — at a fraction of the cost of full cabinet replacement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you do drywall repair before painting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Girls Painting the Town offers comprehensive drywall repair and installation services, including patching holes, fixing cracks, and repairing water damage, before painting to ensure a smooth, professional finish."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I prepare my home for interior painting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "To prepare for interior painting, clear furniture away from walls, remove wall hangings and outlet covers, and ensure the space is accessible. Girls Painting the Town handles all professional surface prep including cleaning, sanding, priming, and protecting your floors and furniture with drop cloths."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best time of year to paint the exterior of a house in Pennsylvania?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best time to paint the exterior of a house in Pennsylvania is late spring through early fall, when temperatures are consistently between 50°F and 85°F and humidity is moderate. Girls Painting the Town monitors weather conditions and schedules exterior projects for optimal results."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Girls Painting the Town do power washing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Girls Painting the Town offers professional power washing for driveways, decks, siding, fences, and patios throughout Delaware County and the Main Line. Power washing is also an essential step in exterior painting preparation to ensure paint adhesion and longevity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you remove popcorn ceilings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Girls Painting the Town provides professional popcorn ceiling removal, followed by surface repair and smooth painting. We test for asbestos in older homes before proceeding to ensure safety."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long has Girls Painting the Town been in business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Girls Painting the Town has been owned and operated by Donna for over a decade. Donna herself brings over 25 years of professional painting experience, making her one of the most experienced painters serving the Main Line and Delaware County area."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer commercial painting services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. In addition to residential painting, Girls Painting the Town provides commercial painting services for offices, retail spaces, and other commercial properties throughout Delaware County and the Main Line area of Pennsylvania."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between interior and exterior paint?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Interior paint is formulated for indoor surfaces and resists scuffs, stains, and cleaning. Exterior paint is engineered to withstand UV exposure, moisture, temperature fluctuations, and mildew. Using the correct paint type is critical for durability. Girls Painting the Town always uses the appropriate product for each surface."
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://housepaintermainline.com/#website",
+    "url": "https://housepaintermainline.com",
+    "name": "Girls Painting the Town",
+    "description": "Professional house painting and cleaning services in Delaware County and Main Line, PA. Licensed and insured with over 25 years of experience.",
+    "publisher": { "@id": "https://housepaintermainline.com/#business" },
+    "inLanguage": "en-US",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://housepaintermainline.com/?s={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://housepaintermainline.com/#webpage",
+    "url": "https://housepaintermainline.com/",
+    "name": "House Painter Main Line PA | Girls Painting the Town | Free Estimates",
+    "description": "Girls Painting the Town — Delaware County & Main Line PA's trusted house painter. Interior & exterior painting, drywall repair, power washing, deck staining. Licensed & insured. 25+ years experience. Call 267-970-3160.",
+    "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+    "about": { "@id": "https://housepaintermainline.com/#business" },
+    "inLanguage": "en-US",
+    "dateModified": "2026-06-13",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://housepaintermainline.com/#painting-service",
+    "name": "House Painting Services — Main Line & Delaware County PA",
+    "description": "Professional residential and commercial painting services including interior painting, exterior painting, cabinet painting, deck staining, power washing, drywall repair, plaster repair, wallpaper removal, and construction cleaning.",
+    "provider": { "@id": "https://housepaintermainline.com/#business" },
+    "areaServed": [
+      "Ardmore PA", "Haverford PA", "Bryn Mawr PA", "Rosemont PA",
+      "Gladwyne PA", "Villanova PA", "Wayne PA", "Devon PA",
+      "Berwyn PA", "Malvern PA", "Paoli PA", "Narberth PA",
+      "Newtown Square PA", "Media PA", "Springfield PA", "Delaware County PA"
+    ],
+    "serviceType": [
+      "Interior Painting", "Exterior Painting", "Cabinet Painting",
+      "Deck Staining", "Power Washing", "Drywall Repair",
+      "Plaster Repair", "Wallpaper Removal", "Popcorn Ceiling Removal",
+      "Construction Cleaning", "Roof Coating", "Stucco Repair"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "description": "Free estimates for all painting and cleaning projects",
+      "price": "0",
+      "priceCurrency": "USD",
+      "name": "Free Estimate"
+    }
+  }
+]

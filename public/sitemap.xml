@@ -1,27 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Homepage — highest priority -->
   <url>
     <loc>https://housepaintermainline.com/</loc>
-    <lastmod>2025-10-22</lastmod>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Services — core conversion page -->
   <url>
-    <loc>https://housepaintermainline.com/contact</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://housepaintermainline.com/services/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contact — primary lead generation page -->
+  <url>
+    <loc>https://housepaintermainline.com/contact/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About — trust and E-E-A-T signal -->
+  <url>
+    <loc>https://housepaintermainline.com/about/</loc>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Reviews — social proof and trust signals -->
   <url>
-    <loc>https://housepaintermainline.com/reviews</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://housepaintermainline.com/reviews/</loc>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
+  <!-- Cleaning — secondary service page -->
   <url>
-    <loc>https://housepaintermainline.com/cleaning</loc>
-    <lastmod>2025-10-22</lastmod>
+    <loc>https://housepaintermainline.com/cleaning/</loc>
+    <lastmod>2026-06-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
+
+  <!-- Legal pages — low priority -->
+  <url>
+    <loc>https://housepaintermainline.com/terms/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <url>
+    <loc>https://housepaintermainline.com/privacy/</loc>
+    <lastmod>2026-06-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
 </urlset>

@@ -1,0 +1,149 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://housepaintermainline.com/services/#webpage",
+    "url": "https://housepaintermainline.com/services/",
+    "name": "Painting & Cleaning Services | Girls Painting the Town | Main Line PA",
+    "description": "Full list of painting and home services by Girls Painting the Town: interior painting, exterior painting, cabinet painting, deck staining, power washing, drywall repair, plaster repair, wallpaper removal, popcorn ceiling removal, and construction cleaning in Delaware County and Main Line, PA.",
+    "isPartOf": { "@id": "https://housepaintermainline.com/#website" },
+    "about": { "@id": "https://housepaintermainline.com/#business" },
+    "inLanguage": "en-US",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://housepaintermainline.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://housepaintermainline.com/services/" }
+      ]
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Painting & Home Services — Girls Painting the Town",
+    "description": "Complete list of professional painting and home improvement services offered by Girls Painting the Town in Delaware County and Main Line, PA.",
+    "numberOfItems": 10,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Service",
+          "name": "Interior Painting",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Professional interior painting for walls, ceilings, trim, doors, and cabinets. We use premium paints and meticulous prep for a flawless finish in any room.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Service",
+          "name": "Exterior Painting",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Expert exterior house painting including siding, trim, shutters, doors, porches, and decks. Proper prep and premium exterior paints for lasting protection.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Service",
+          "name": "Cabinet Painting",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Transform kitchen and bathroom cabinets with professional painting and refinishing. A cost-effective alternative to full cabinet replacement.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Service",
+          "name": "Deck Staining and Sealing",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Professional deck staining, sealing, and restoration to protect wood surfaces from moisture, UV damage, and wear.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Service",
+          "name": "Power Washing",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "High-pressure power washing for driveways, decks, siding, fences, and patios. Essential for surface prep before painting.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Service",
+          "name": "Drywall Repair and Installation",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Professional drywall patching, repair, and installation for holes, cracks, and water damage in walls and ceilings.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Service",
+          "name": "Plaster Repair",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Skilled plaster repair and restoration for older homes with original plaster walls and ceilings, common throughout the historic Main Line.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Service",
+          "name": "Wallpaper Removal",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Professional wallpaper removal and wall surface preparation for painting, including repair of any underlying wall damage.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Service",
+          "name": "Popcorn Ceiling Removal",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Safe removal of popcorn (acoustic) ceiling texture followed by smooth ceiling preparation and painting.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Service",
+          "name": "Construction Cleaning",
+          "url": "https://housepaintermainline.com/services/",
+          "description": "Thorough post-construction and renovation cleaning for new builds and remodels, leaving spaces spotless and move-in ready.",
+          "provider": { "@id": "https://housepaintermainline.com/#business" },
+          "areaServed": "Delaware County and Main Line, PA"
+        }
+      }
+    ]
+  }
+]

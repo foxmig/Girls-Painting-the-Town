@@ -1,0 +1,54 @@
+# robots.txt — housepaintermainline.com
+# Girls Painting the Town — Delaware County & Main Line PA
+
+User-agent: *
+Allow: /
+
+# Block admin and private WordPress paths
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /wp-cron.php
+Disallow: /xmlrpc.php
+Disallow: /?s=
+Disallow: /search/
+Disallow: /tag/
+Disallow: /author/
+Disallow: /feed/
+Disallow: /comments/feed/
+Disallow: /trackback/
+Disallow: /*.php$
+Disallow: /cgi-bin/
+
+# Allow important files
+Allow: /wp-admin/admin-ajax.php
+
+# AI Crawlers — allow for AEO/AIO visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# Sitemaps
+Sitemap: https://housepaintermainline.com/sitemap.xml
+Sitemap: https://housepaintermainline.com/sitemap_index.xml
